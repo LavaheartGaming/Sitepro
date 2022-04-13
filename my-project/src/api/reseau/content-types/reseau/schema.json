@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reseaux",
+  "info": {
+    "singularName": "reseau",
+    "pluralName": "reseaux",
+    "displayName": "Reseaux"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lien": {
+      "type": "string"
+    }
+  }
+}
