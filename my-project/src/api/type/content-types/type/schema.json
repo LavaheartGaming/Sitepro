@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "types",
+  "info": {
+    "singularName": "type",
+    "pluralName": "types",
+    "displayName": "types",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jeux": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::jeu.jeu",
+      "inversedBy": "types"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

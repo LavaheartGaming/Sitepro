@@ -4,7 +4,8 @@
   "info": {
     "singularName": "reseau",
     "pluralName": "reseaux",
-    "displayName": "Reseaux"
+    "displayName": "reseaux",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,17 @@
   "attributes": {
     "lien": {
       "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
