@@ -9,9 +9,10 @@ if (error) return <p>Error</p>
 
     return (
         <div>
-            {data.map(reseaux => (
-                <div key={reseaux.id} className="reseau">
-                    <div className="reseau-name">{reseaux.name}</div>
+            {data.data.map(reseaux => (
+                <div key={reseaux.attributes.id} className="reseau">
+                    <div className="reseau-icon">{reseaux.lien}</div>
+                    <p>{reseaux.lien}</p>
                 </div>
             ))}
         </div>
