@@ -12,14 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "jeux": {
+    "type": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "jeuxes": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::jeu.jeu",
       "inversedBy": "types"
-    },
-    "type": {
-      "type": "string"
     }
   }
 }

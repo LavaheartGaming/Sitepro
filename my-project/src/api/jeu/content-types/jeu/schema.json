@@ -33,9 +33,9 @@
     },
     "types": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::type.type",
-      "mappedBy": "jeux"
+      "mappedBy": "jeuxes"
     }
   }
 }
